@@ -1,6 +1,8 @@
 #Pytorch 1.0 LSTM
 # https://github.com/apachecn/pytorch-doc-zh/blob/master/docs/1.0/nlp_sequence_models_tutorial.md
-
+# I want to HackTheAR:  user identity project based on user watching trace
+# Feng
+# @2020
 
 import torch
 import torch.nn as nn
@@ -13,7 +15,7 @@ lstm = nn.LSTM(3, 3)  # 输入维度为3维，输出维度为3维
 inputs = [torch.randn(1, 3) for _ in range(5)]  # 生成一个长度为5的序列
 
 print(inputs)
-exit()
+#exit()
 
 
 # 初始化隐藏状态.
